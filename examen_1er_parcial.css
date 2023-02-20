@@ -1,0 +1,396 @@
+body{
+}
+
+nav{
+    background-color: green;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+}
+
+nav ul{
+    margin-right: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+nav li{
+    padding-right: 20px;
+    list-style-type: none;
+}
+
+
+.image{
+    background-image: url("Imagenes/carousel-bg.jpg");
+    height: 400px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.image h4{
+    text-align: center;
+    margin-right: 1000px;
+}
+
+.aboutUs{
+    background-color: rgb(6, 6, 88);
+    color: pink;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+}
+
+.aboutUs h1, h4{
+    margin-left: 45%;
+}
+
+.aboutUs img{
+    height: 500px;
+    width: auto;
+    display: block;
+    margin: auto;
+}
+
+.izq, .der{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 50%;
+    float: left;
+}
+
+.barraExterior{
+    background-color: gray;
+    height: 20px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.barraInterior1{
+    margin-left: 5px;
+    height: 10px;
+    background-color: orange;
+    width: 80%;
+}
+
+.barraInterior2{
+    margin-left: 5px;
+    height: 10px;
+    background-color: orange;
+    width: 90%;
+}
+
+.barraInterior3{
+    margin-left: 5px;
+    height: 10px;
+    background-color: orange;
+    width: 75%;
+}
+
+.barraInterior4{
+    margin-left: 5px;
+    height: 10px;
+    background-color: orange;
+    width: 80%;
+}
+
+.barraInterior5{
+    margin-left: 5px;
+    height: 10px;
+    background-color: orange;
+    width: 50%;
+}
+
+.colorPalette h1,h4{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+.colorPalette h4{
+    margin-right: 45%;
+}
+  .colorPalette li{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  #cP11{
+    height:200px;
+    width: 200px;
+    background-color: #69D2E7;
+  }
+  
+  #cP12{
+    height:200px;
+    width: 200px;
+    background-color: #A7DBDB;
+  }
+  
+  #cP13{
+    height:200px;
+    width: 200px;
+    background-color: #E0E4CC;
+  }
+  
+  #cP14{
+    height:200px;
+    width: 200px;
+    background-color: #F38630;
+  }
+  
+  #cP15{
+    height:200px;
+    width: 200px;
+    background-color: #FA6900;
+  }
+  
+  #cP21{
+    height:200px;
+    width: 200px;
+    background-color: #E94C6F ;
+  }
+  
+  #cP22{
+    height:200px;
+    width: 200px;
+    background-color: #542733 ;
+  }
+  
+  #cP23{
+    height:200px;
+    width: 200px;
+    background-color: #5A6A62 ;
+  }
+  
+  #cP24{
+    height:200px;
+    width: 200px;
+    background-color: #C6D5CD ;
+  }
+  
+  #cP25{
+    height:200px;
+    width: 200px;
+    background-color: #FDF200 ;
+  }
+  
+  #cP31{
+    height:200px;
+    width: 200px;
+    background-color: #DB3340 ;
+  }
+  
+  #cP32{
+    height:200px;
+    width: 200px;
+    background-color: #E8B71A ;
+  }
+  
+  #cP33{
+    height:200px;
+    width: 200px;
+    background-color: #F7EAC8 ;
+  }
+  
+  #cP34{
+    height:200px;
+    width: 200px;
+    background-color: #1FDA9A ;
+  }
+  
+  #cP35{
+    height:200px;
+    width: 200px;
+    background-color: #28ABE3 ;
+  }
+  
+  #cP41{
+    height:200px;
+    width: 200px;
+    background-color: #588C73 ;
+  }
+  
+  #cP42{
+    height:200px;
+    width: 200px;
+    background-color: #F2E394 ;
+  }
+  
+  #cP43{
+    height:200px;
+    width: 200px;
+    background-color: #F2AE72 ;
+  }
+  
+  #cP44{
+    height:200px;
+    width: 200px;
+    background-color: #D96459 ;
+  }
+  
+  #cP45{
+    height:200px;
+    width: 200px;
+    background-color: #8C4646 ;
+  }
+  
+  #cP51{
+    height:200px;
+    width: 200px;
+    background-color: #D0C91F ;
+  }
+  
+  #cP52{
+    height:200px;
+    width: 200px;
+    background-color: #85C4B9 ;
+  }
+  
+  #cP53{
+    height:200px;
+    width: 200px;
+    background-color: #008BBA ;
+  }
+  
+  #cP54{
+    height:200px;
+    width: 200px;
+    background-color: #DF514C ;
+  }
+  
+  #cP55{
+    height:200px;
+    width: 200px;
+    background-color: #DC403B ;
+  }
+
+  .whatWeDo{
+      margin-top: -30px;
+      background-color: darkgreen;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 900px;
+      flex-flow: column wrap;
+  }
+
+.whatWeDo h4, .ourAwesomeTeam h4{
+    margin-right: 45%;
+}
+
+  .whatWeDo ui{
+    width: 60%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    height: 120px;
+  }
+
+  #botonHire{
+    background-color: grey;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    margin-top: 300px;
+}
+
+.contenedorIcono{
+    background: linear-gradient(to right, #706d6d, #030838);;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contenedorExteriorMobiles{
+    padding-top: 12px;
+    background-color: rgb(41, 160, 41);
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+}
+
+#contenedorMobiles{
+    background-color: brown;
+    transform: rotate(225deg);
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.ourAwesomeTeam{
+    background-color: darkgreen;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+    flex-flow: column wrap;
+    padding-bottom: 50px;
+}
+
+.ourAwesomeTeam ui{
+    width: 60%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    height: 120px;
+  }
+
+  #contenedorImagenRecorte1{
+    height: 200px;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  #contenedorImagenRecorte1 img{
+    width: 100%;
+    margin-top: -550px;
+  }
+
+  #contenedorImagenRecorte2{
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  #contenedorImagenRecorte2 img{
+    width: 100%;
+    margin-top: -90px;
+  }
+
+  
+
+
+
